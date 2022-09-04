@@ -5,17 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Idle Developer</title>
 </head>
 <body>
-    <h1 id="score">Score: 0</h1>
-    <p id="SpS">SpS: 0</p>
-    <p id="clickPower">Click Power: 1</p>
-    <button onclick="GenerateScore()">Click</button>
-    <button id="buyClickUpgrade" onclick="ClickUpgradeBuy()">Buy Click Upgrade: 2</button>
-    <button id="buySpSUpgrade" onclick="SpSUpgradeBuy()">Buy SpS Upgrade: 0</button>
-    <br/>
-    <button id="prestige" onclick="Prestige()">Prestige + 0</button>
-    <p id="erro"></p>
+    <div class="center">
+        <button id="prestige" onclick="Prestige()"></button>
+        <h3 id="prestigeText">+ 0</h3>
+        <h1 id="score">Score: 0</h1>
+        <p id="SpS">SpS: 0</p>
+        <button id="click" onclick="GenerateScore()"></button>
+        <br/>
+        <button class="btn" id="buyClickUpgrade" onclick="ClickUpgradeBuy()">Buy Click Upgrade: 2</button>
+        <button class="btn" id="buySpSUpgrade" onclick="SpSUpgradeBuy()">Buy SpS Upgrade: 0</button>
+        <br/>
+        <p id="clickPower">Click Power: 1</p>
+        <p id="erro"></p>
+    </div>
 </body>
 </html>

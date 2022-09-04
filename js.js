@@ -96,12 +96,10 @@ function UpdateUI(){
     document.getElementById("clickPower").innerHTML = "Click Power: " + ClickPower();
     document.getElementById("buySpSUpgrade").innerHTML = "Buy SpS Upgrade: " + SpSUpgrade * 2;
     document.getElementById("SpS").innerHTML = "SpS: " + SpSUpgrade;
-    document.getElementById("prestige").innerHTML = "Prestige + " + prestigeLevelCache;
     Erro("");
 }
 function UpdateScore(){
     document.getElementById("score").innerHTML = "Score: " + score.toFixed(0);
-    document.getElementById("prestige").innerHTML = "Prestige + " + prestigeLevelCache;
 }
 function Erro(texto){
     document.getElementById("erro").innerHTML = texto;

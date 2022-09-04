@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+body{
+    background: #1c1c1c;
+    font-family: 'Baloo 2', cursive;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+#prestige{
+    background-image: url("prestige.png");
+    background-size: cover;
+    background-color: #1c1c1c;
+    border: 0;
+    padding: 23px 17px;
+    transition-duration: 0.2s;
+}
+#prestige:hover{
+    padding: 26px 19px;
+    transition-duration: 0.2s;
+}
+#prestige:active{
+    padding: 23px 17px;
+    transition-duration: 0.2s;
+}
+
+#prestigeText{
+    color: #dfdfdf;
+}
+
+#score{
+    color: white;
+    margin-bottom: -3%;
+}
+
+#SpS{
+    color: #dfdfdf;
+}
+
+#click{
+    background-image: url("logo.png");
+    background-size: cover;
+    background-color: #1c1c1c;
+    border: 0;
+    padding: 10em;
+    transition-duration: 0.2s;
+}
+#click:hover{
+    padding: 10.5em;
+    transition-duration: 0.2s;
+}
+#click:active{
+    padding: 9.5em;
+    transition-duration: 0.2s;
+}
+
+.btn{
+    color: #dfdfdf;
+    background-size: cover;
+    background-color: #1c1c1c;
+    border: 2px solid #dfdfdf;
+    border-radius: 5px;
+    padding: 10px;
+    transition-duration: 0.2s;
+}
+.btn:hover{
+    background-color: #dfdfdf;
+    color: #1c1c1c;
+}
